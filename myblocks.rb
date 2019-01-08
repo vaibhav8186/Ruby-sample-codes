@@ -1,30 +1,3 @@
-=begin
-def select
-  name='vaibhav'
-  yield(name)
-end
-
-select{|name| puts 'Hello' +name}
-=end
-
-
-#arr=[1,2,3,4]
-=begin
-def my_map()
-	arr=[10,20,30]
-	result=[]
-	arr.each do|element|
-
-		result << yield(element)
-	end
-	result
-
-end
-
-#arr.my_map|n| n*n}
-puts my_map { |n| n+2 }
-=end
-
 def my_map!(arg)
 	array = arg
 	array.each_with_index do |elem,i|
